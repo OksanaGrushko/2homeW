@@ -1,0 +1,127 @@
+body {
+    font-family: "Playfair Display", sans-serif;
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.menu-nav {
+    background-color: rgba(241, 179, 171, 0.2);
+    /*кольор фону, прозорість*/
+    overflow: hidden;
+    /*обрежит если блок полезит вниз*/
+    width: 100%;
+    margin: 0px auto;
+}
+
+.menu {
+    width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    /*задаем радителю*/
+    text-align: center;
+    height: 40px;
+}
+
+.menu-item {
+    display: inline-block;
+    /*задаем и розмеры и обрезаем знаки переноса*/
+    margin-right: 5px;
+    /*для соседних элементов. либо вправо либо вниз*/
+    background-color: rgba(255, 149, 145, 0.3);
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+    /*текст по центру*/
+}
+
+.menu-link {
+    color: rgb(0, 0, 0);
+    display: block;
+    /*применял блочность*/
+    width: 50px;
+    /*шырина*/
+    text-decoration: none;
+    /*убираем подчеркивание*/
+    padding: 5px;
+    margin: 0px auto;
+}
+
+.menu-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 2 завдання */
+.blok {
+    width: 470px;
+    color: rgb(98, 98, 98);
+    position: relative;
+    height: 640px;
+    margin: auto;
+
+}
+
+.menu-task2
+
+/*.menu-task3*/
+    {
+    vertical-align: middle;
+    list-style: none;
+    text-align: left;
+    width: auto;
+    position: absolute;
+    height: auto;
+    padding: 0px;
+}
+
+.menu-task2-li,
+.menu-task3 {
+    display: inline-block;
+    border-width: 3px;
+    border-style: outset;
+    padding: 20px;
+}
+
+.name {
+    padding: 5px 30px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.content,
+h2 {
+    padding: 5px 30px;
+    text-align: left;
+}
+
+/*3*/
+.blok2 {
+    width: 960px;
+    color: rgb(98, 98, 98);
+    position: relative;
+    width: 100%;
+}
+.menu-task3 {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.menu-task3-li {
+    display: inline-block;
+    /*задаем и розмеры и обрезаем знаки переноса*/
+    margin-right: 5px;
+    /*для соседних элементов. либо вправо либо вниз*/
+    line-height: 30px;
+    width: 490px;
+}
+.foto {
+    color: rgb(0, 0, 0);
+    display: block;
+    /*применял блочность*/
+    width: 470px;
+    /*шырина*/
+    text-decoration: none;
+    /*убираем подчеркивание*/
+    padding: 5px;
+    margin: 0px auto;
+}
